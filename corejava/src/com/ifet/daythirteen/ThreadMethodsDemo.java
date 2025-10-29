@@ -15,7 +15,7 @@ public class ThreadMethodsDemo {
 			threadOne.join(); // wait current thread until t1 is dead
 			threadTwo.join(300); // wait current thread until t2 is dead or time period is over
 		} catch (InterruptedException e) {
-			System.esarr.println("Thread interrupted: " + e.getMessage());
+			System.err.println("Thread interrupted: " + e.getMessage());
 		}
 		System.out.println("-----------------------End of Main--------------------------");
 	}
